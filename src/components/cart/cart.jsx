@@ -6,9 +6,9 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import axios from "axios";
+import AuthContext from "../../context/authContext";
 import Cookies from "js-cookie";
 
-import AuthContext from "../../context/authContext";
 
 const Home = () => {
   const { cart, removeEquipment } = useContext(CartContext);
